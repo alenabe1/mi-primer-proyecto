@@ -72,6 +72,8 @@ print(my_new_list)  # Imprime la lista invertida
 my_new_list.sort()  # Ordena la lista en orden ascendente
 print(my_new_list)  # Imprime la lista ordenada
 
+print(my_new_list[1:2])  # Imprime una porción de la lista, desde el índice 1 hasta el índice 2 (exclusivo)
+
 my_list = "Hola Python"
 print(my_list)  # Imprime el contenido de my_list, que ahora es una cadena de texto
 print(type(my_list))  # Imprime el tipo de la variable, que ahora es str
