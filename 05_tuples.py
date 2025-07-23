@@ -35,8 +35,7 @@ my_tuple = tuple(my_tuple)
 print(my_tuple)
 print(type(my_tuple))  # Muestra el tipo de la variable después de la conversión
 
-
-del my_tuple [2]  # Elimina el elemento en la posición 2 de la tupla convertida en lista
+# del my_tuple [2]  # TypeError: 'tuple' object doesn't support item deletion
 
 del my_tuple
 # print(my_tuple)  # Esto generará un error porque la tupla ya no existe
